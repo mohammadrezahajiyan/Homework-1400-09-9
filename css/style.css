@@ -1,0 +1,58 @@
+@import url('rezapnp.ir/store_php/css/font.css');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+				div.form{
+				position: absolute;
+				border:1px solid black;
+				font-family:'vazir';
+				border-radius:50px;
+				width: 800px;
+			    left: 50%;
+                transform: translate(-50%);
+				}
+				table.header{
+				font-size: 18px;
+			    text-align: right;
+                }
+				table.main{
+				text-align: right;
+				}
+				table.footer{
+				text-align: right;
+				width: 700px;
+				}
+				.button{		
+                display: inline-block;
+                background-color: #00FFDB;
+                border-radius: 6px;
+                font-size: 20px;
+	            font-weight: bold;
+                color: black;
+				transition: all .5s;
+                text-decoration: none;
+                padding: 12px 30px;
+			    border: 0px;
+               	font-family: 'vazir';
+                }
+	    		.button:hover{
+                background-color:#009E88;
+                color: white;
+				}
+	            .maharat{
+				color: #D9D9D9;
+				font-size: 30px;
+		        
+				}
+				.empty{
+				color: #698C8A;
+				font-size: 30px;
+				}
+				.font{
+				font-family:'Merriweather', serif;
+				font-size: 31px;
+				}
+           	    .textarea{
+				border-radius: 10px;
+				font-size: 25px;
+				resize:none;
+				text-align: right;
+				}

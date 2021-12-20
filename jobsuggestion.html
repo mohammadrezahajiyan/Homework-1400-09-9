@@ -1,0 +1,42 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8">
+	<meta name="description" content="پیشنهاد کار"/>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>پیشنهاد کار</title>
+
+</head>
+
+<body>
+	<div  align="center" class="form" bordercolor="#000000">
+		<tr>
+			<td style="border: 1px" width="800px">
+	<h1 align="center">job suggestion</h1>
+	<hr width="400px">
+					
+					<h1 id="date">مدت کار</h1><br>
+					  <select id="select" name="choice" style="width: 500px; font-size: 30px;border-radius: 10px;text-align: center">
+					  <option value="Less 1 ">کمتر از 6 ماه</option>
+					 <option value="Less 2 ">کمتر از 1 سال</option>
+						 <option value="Less 3 ">کمتر از 2 سال</option>
+					  </select>
+					<p id="send" style="display: none;"></p>
+					  <br>
+                     <br>
+					<textarea id="text-input" rows="10" cols="34" placeholder="توضیحات کار" class="textarea" onkeyup="InnerChange(id);"></textarea>
+					
+					<div id="work" style="display: none; text-align:inherit;width: 500px;height: auto;direction: rtl;"></div><br><br>
+					  <a href="jobsuggestion.html" class="button" >مجدد</a>
+					<button type="button" class="button" onclick="document.getElementById('text-input').style.display='none';document.getElementById('work').style.display='block';document.getElementById('select').style.display='none';document.getElementById('send').style.display='block';;document.getElementById('date').style.display='none';">ارسال</button>
+					<br>
+                    <br>
+				<script type="text/javascript" src="java/java.js">            
+                    </script>
+			</td>
+				</tr>
+			
+	</div>
+</body>
+</html>
